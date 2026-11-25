@@ -1,0 +1,23 @@
+{
+  "name": "ideaflux-finance",
+  "version": "1.0.0",
+  "description": "IDEAFLUX financial management system",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node --test test/rules.test.js",
+    "build:standalone": "node build-standalone.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "express": "^5.3.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "sql.js": "^1.17.0"
+  }
+}
